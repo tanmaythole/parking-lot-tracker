@@ -6,7 +6,9 @@ class ParkingLot:
     EMPTY_SPOT = 0
 
     def __init__(self) -> None:
-        """Initialize the parking lots"""
+        """
+        Initialize the parking lots array with empty spot value
+        """
         self.lots = [self.EMPTY_SPOT] * self.MAX_CAPACITY
 
     def find_index(self, element) -> int:
